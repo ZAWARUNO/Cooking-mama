@@ -5,10 +5,6 @@
         android:title="Home"
         android:icon="@drawable/ic_home"/>
     <item
-        android:id="@+id/btn_bookmark"
-        android:title="Bookmark"
-        android:icon="@drawable/ic_bookmarks"/>
-    <item
         android:id="@+id/btn_profile"
         android:title="Profile"
         android:icon="@drawable/ic_user"/>

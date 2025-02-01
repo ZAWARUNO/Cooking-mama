@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Cooking Mama</string>
+    <string name="kentang">Kentang</string>
+    <string name="paprika">Paprika</string>
+    <string name="kubis">Kubis</string>
+    <string name="tomat">Tomat</string>
+    <string name="wortel">wortel</string>
+    <string name="lihat_detail">Lihat Resep</string>
+    <string name="lihat_resep">Lihat Resep</string>
+    <string name="kentangResep">Anekah olahan kentang</string>
 </resources>

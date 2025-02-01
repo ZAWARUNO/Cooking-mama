@@ -1,6 +1,7 @@
 package com.example.cookingmama
 
 import android.os.Bundle
+import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.core.view.ViewCompat
@@ -28,10 +29,6 @@ class MainActivity : AppCompatActivity() {
                     replaceFragment(HomeFragment())
                     true
                 }
-                R.id.btn_bookmark -> {
-                    replaceFragment(BookmarkFragment())
-                    true
-                }
                 R.id.btn_profile -> {
                     replaceFragment(ProfileFragment())
                     true
@@ -44,4 +41,5 @@ class MainActivity : AppCompatActivity() {
     private fun replaceFragment(fragment: Fragment) {
         supportFragmentManager.beginTransaction().replace(R.id.container, fragment).commit()
     }
+
 }
